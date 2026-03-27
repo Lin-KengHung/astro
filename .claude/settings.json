@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm create:*)",
+      "Bash(source ~/.nvm/nvm.sh)",
+      "Bash(nvm use:*)",
+      "Bash(npm --version)",
+      "Bash(nvm ls-remote:*)",
+      "Bash(nvm install:*)",
+      "Bash(nvm alias:*)",
+      "Bash(npx create-astro@latest --help)",
+      "Bash(npx create-astro@latest ./tmp-astro-init --template blog --typescript strict --no-git --install --yes)"
+    ]
+  }
+}
