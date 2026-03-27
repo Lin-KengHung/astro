@@ -9,7 +9,12 @@
       "Bash(nvm install:*)",
       "Bash(nvm alias:*)",
       "Bash(npx create-astro@latest --help)",
-      "Bash(npx create-astro@latest ./tmp-astro-init --template blog --typescript strict --no-git --install --yes)"
+      "Bash(npx create-astro@latest ./tmp-astro-init --template blog --typescript strict --no-git --install --yes)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "Bash(npx create-astro@latest /home/steve/astro/tmp-portfolio --template portfolio --no-git --install --yes)",
+      "Bash(rm -rf src public node_modules package.json package-lock.json astro.config.mjs tsconfig.json)",
+      "Bash(mv tmp-portfolio/src tmp-portfolio/public tmp-portfolio/node_modules tmp-portfolio/package.json tmp-portfolio/package-lock.json tmp-portfolio/astro.config.mjs tmp-portfolio/tsconfig.json .)",
+      "Bash(rm -rf tmp-portfolio)"
     ]
   }
 }
